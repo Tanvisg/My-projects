@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,400&family=Poppins:wght@300&family=Roboto:wght@300&family=Varela+Round&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(images/bg_img5.jpg);
+    background-color: #F067A6;
+    background-repeat: repeat-x;
+    scrollbar-width: auto;          /* "auto" or "thin" */
+    scrollbar-color: white;   /* scroll thumb and track */ 
+}
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: none;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #FF0930;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 2px solid black;  /*creates padding around scroll thumb*/
+  }
+
+.logo{
+    width: 70px;
+    /* height: 70px; */
+    padding: 10px;
+}
+
+.nav-bar{
+    position: fixed;
+    top: 6px;
+    left: 1100px;
+}
+
+.nav-el{
+    color: #F067A6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-shadow: 0 0 3px #FF0000, 0 0 10px #c667d3;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nav-lists:hover{
+    color: #FF0930;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-shadow: 0 0 3px #FF0000, 0 0 10px #c667d3;
+}
+
+.nav-lists{
+    /* position: absolute; */
+    padding: 10px;
+}
+
+.char-img{
+    position: sticky;
+    left: 1118px;
+    width: 423px;
+}
+
+.heading{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    color: #F067A6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    text-shadow: 0 0 3px #FF0000, 0 0 10px #c667d3;
+}
+
+.sub-heading{
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    color: #c667d3;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text{
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    font-size: 1rem;
+    color: #F067A6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.more{
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    background-color: #F067A6;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 900;
+    border-radius: 5px;
+}

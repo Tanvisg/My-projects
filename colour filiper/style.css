@@ -47,18 +47,31 @@ h1{
     padding-left: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: none;
 }
+
+/* h1:hover{
+    background-color: #A36549;
+} */
 
 .btn{
     position: relative;
     top: 140px;
-    left: 680px;
+    left: 700px;
     /* right: 500px; */
     border-color: black;
     background-color: white;   
     color: black;
     border-radius: 5px;
     font-weight: 900;
+    cursor: pointer;
+    /* transition-properties */
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+    /* transition-property: color; -> appllied only on the particular property */
+    transition-property: all; /*transitions applied to all*/
+    transition-timing-function: linear; /* -> using this we can create our own transition funtion which is custamised 
+    accordingly to your wants. We can go to developers tool for clear idea */
 }
 
 .btn:hover{
@@ -66,10 +79,8 @@ h1{
     color: white;
 }
 
+
 @media only screen and (min-width:200px) and (max-width:767px) {
-    /* .nav-center{
-        justify-content: center;
-    } */
     h1{
         left: 10px;
         width: 90%;
