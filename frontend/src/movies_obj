@@ -1,0 +1,22 @@
+let moviesObj =  [
+  { "id": 1, "title": "Your Name", "releaseDate": "2021", "url": "https://example.com/your-name" },
+  { "id": 2, "title": "Spirited Away", "releaseDate": "2001", "url": "https://example.com/spirited-away" },
+  { "id": 3, "title": "My Neighbor Totoro", "releaseDate": "1988", "url": "https://example.com/my-neighbor-totoro" },
+  { "id": 4, "title": "Weathering With You", "releaseDate": "2019", "url": "https://example.com/weathering-with-you" },
+  { "id": 5, "title": "A Silent Voice", "releaseDate": "2016", "url": "https://example.com/a-silent-voice" },
+  { "id": 6, "title": "Howl's Moving Castle", "releaseDate": "2004", "url": "https://example.com/howls-moving-castle" },
+  { "id": 7, "title": "Castle in the Sky", "releaseDate": "1986", "url": "https://example.com/castle-in-the-sky" },
+  { "id": 8, "title": "Ponyo", "releaseDate": "2008", "url": "https://example.com/ponyo" },
+  { "id": 9, "title": "The Wind Rises", "releaseDate": "2013", "url": "https://example.com/the-wind-rises" },
+  { "id": 10, "title": "Kiki's Delivery Service", "releaseDate": "1989", "url": "https://example.com/kikis-delivery-service" },
+  { "id": 11, "title": "Grave of the Fireflies", "releaseDate": "1988", "url": "https://example.com/grave-of-the-fireflies" },
+  { "id": 12, "title": "The Boy and the Beast", "releaseDate": "2015", "url": "https://example.com/the-boy-and-the-beast" },
+  { "id": 13, "title": "Wolf Children", "releaseDate": "2012", "url": "https://example.com/wolf-children" },
+  { "id": 14, "title": "Whisper of the Heart", "releaseDate": "1995", "url": "https://example.com/whisper-of-the-heart" },
+  { "id": 15, "title": "The Tale of the Princess Kaguya", "releaseDate": "2013", "url": "https://example.com/the-tale-of-the-princess-kaguya" },
+  { "id": 16, "title": "When Marnie Was There", "releaseDate": "2014", "url": "https://example.com/when-marnie-was-there" },
+  { "id": 17, "title": "From Up on Poppy Hill", "releaseDate": "2011", "url": "https://example.com/from-up-on-poppy-hill" },
+  { "id": 18, "title": "The Secret World of Arrietty", "releaseDate": "2010", "url": "https://example.com/the-secret-world-of-arrietty" },
+  { "id": 19, "title": "The Cat Returns", "releaseDate": "2002", "url": "https://example.com/the-cat-returns" },
+  { "id": 20, "title": "5 Centimeters Per Second", "releaseDate": "2007", "url": "https://example.com/5-centimeters-per-second" }
+]
